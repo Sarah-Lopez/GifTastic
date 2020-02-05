@@ -1,0 +1,33 @@
+.body {
+    align-content: center;
+    width: 100%;
+    /* background-color: teal; */
+}
+    
+.container {
+    margin-top: 2%;
+    background-color: teal;
+}
+
+.row {
+    width: 100%;
+}
+
+.buttons-toolbar {
+    margin: auto;
+    padding: 20%;
+
+}
+
+#gifs-appear-here {
+    margin: auto;
+    padding: 20px;
+}
+
+#breed-form {
+    margin-left: 20%;
+}
+
+.col-12, .col-6 {
+    color: white;
+}
