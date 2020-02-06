@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html lang="en">
 
 <head>
@@ -6,41 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Giftastic</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12"><br>
-                <h1 style="text-align: center">Breed Search</h1><br>
-            </div>
-            <div class="row" align="center">
-                <div class="col-12">
-                    <!-- Rendered buttons will be put here -->
-                    <div id="buttons-toolbar"></div><br><br>
-                </div>
-            </div>
+    <br>
+    <div class="row">
+        <div class="col-12">
+            <h1 style="text-align: center">Giftastic Breed Search</h1>
         </div>
-        <div class="row">
-            <div class="col-6">
-                <form id="breed-form">
-                    <label for="breed-input">Add a new breed:</label>
-                    <input type="text" id="breed-input">
-                    <!-- Button triggers new breed to be added -->
-                    <input id="add-breed" type="submit" value="Add">
-                </form>
-            </div>
-        </div><br>
+    </div><br>
 
-        <div class="row">
-            <div class="col-12" align="center">
-                <div id="gifs-appear-here"></div>
-            </div>
+    <div class="row" align="center">
+        <div class="col-12">
+            <!-- Rendered buttons will be put here -->
+            <div id="buttons-toolbar"></div>
         </div>
-    </div>
+
+    </div><br>
+    <div class="row" align="center">
+        <div class="col-12">
+            <form id="breed-form">
+                <label for="breed-input">Add another breed:</label>
+                <input type="text" id="breed-input">
+                <!-- Button triggers new breed to be added -->
+                <input id="add-breed" type="submit" value="Add">
+            </form>
+        </div>
+    </div><br>
+
+    <div class="row">
+        <div class="col-12" align="center">
+            <div id="gifs-appear-here"></div>
+        </div>
+    </div><br>
+
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="javascript/giftastic.js"></script>

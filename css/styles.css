@@ -1,33 +1,17 @@
-.body {
-    align-content: center;
-    width: 100%;
-    /* background-color: teal; */
-}
-    
-.container {
-    margin-top: 2%;
-    background-color: teal;
-}
-
-.row {
+body {
+    background-color: rgb(112, 139, 139);
     width: 100%;
 }
 
-.buttons-toolbar {
-    margin: auto;
-    padding: 20%;
-
-}
-
-#gifs-appear-here {
-    margin: auto;
-    padding: 20px;
-}
-
-#breed-form {
-    margin-left: 20%;
-}
-
-.col-12, .col-6 {
+.col-12 {
     color: white;
+    font-family: cursive;
+}
+
+#buttons-toolbar {
+    max-width: 80%;
+}
+
+.breed-btn {
+    margin: 5px;
 }
