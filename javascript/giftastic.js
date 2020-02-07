@@ -8,20 +8,20 @@ const breeds = [
   "German Shepherd",
   "Norfolk Terrier",
   "Golden Retriever",
-  "Labrador Retriever"
+  "Maltese"
 ]
 
 $("#buttons-toolbar").on("click", ".breed-btn", function () {
-  // In this case, the "this" keyword refers to the button that was clicked
+  // In this case, the "this" keyword is the button that was clicked
   console.log("clicked")
   const breed = $(this).attr("data-breed");
   console.log(breed);
 
-  // Constructing a URL to search Giphy for the breed.
+  // URL to search Giphy for the breed.
   const queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
     breed + "&api_key=uwpbX1inV0fpeYT8iVG75MVHBWB8Hgub&limit=10";
 
-  // Performing our AJAX GET request
+  // AJAX GET request
   $.ajax({
     url: queryURL,
     method: "GET"
@@ -61,7 +61,6 @@ $("#buttons-toolbar").on("click", ".breed-btn", function () {
 // const type = $(this).data('type');
 
 // })
-
 
 
 // This function handles events where a breed button is clicked
